@@ -1,0 +1,39 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Lora', serif;
+  background: url(header-2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1
+{
+color:rgba(204, 16, 16,0.8);
+display:inline-block;
+}
+#btn
+{
+  padding:15px 15px;
+  border-radius:300px;
+}
+hr{
+  border-color:white;
+  border-width:3px;
+}
+#btn:active,
+#btn:hover{
+  background-color:black;
+  border-color: rgba(22, 206, 151, 0.8);
+  transition:all 2s;
+  transform:scale(1.1);
+}
+.navbar
+{
+  position:absolute;
+  top:0px;
+  right:0px;
+ overflow:hidden;
+}
