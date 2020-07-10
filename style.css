@@ -35,5 +35,5 @@ hr{
   position:absolute;
   top:0px;
   right:0px;
- overflow:hidden;
+ z-index:4
 }
